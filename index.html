@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Quiz App | Rushali Dhar</title>
+        <link rel="stylesheet" href="style.css">
+        <!--Font from google fonts-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <!--Start Quiz Button-->
+        <div class="start_btn"><button><b>Start Quiz</b></button></div>
+
+        <!--Info Box-->
+        <div class="info_box">
+         <div class="info_title">
+             <span>Rules of this Quiz:</span>
+         </div>
+         <div class="info_list">
+             <div class="info">1. You will have only <span>15 seconds</span> for each question.</div>
+             <div class="info">2. Once you select your answer, you cannot select again. </div>
+             <div class="info">3. You cannot select any option once time is over.</div>
+             <div class="info">4. You cannot exit from the quiz while attempting.</div>
+             <div class="info">5. You get 1 point for every correct answer. No negative marks.</div>
+         </div>
+         <div class="buttons">
+             <button class="restart">Continue</button>
+             <button class="quit">Exit Quiz</button>
+         </div>
+        </div>
+
+        <!--Quiz Box-->
+        <div class="quiz_box">
+            <header>
+                <div class="title">Quiz Application</div>
+                <div class="timer">
+                    <div class="time_text">Time left</div>
+                    <div class="timer_sec">15</div>
+                </div>
+                <div class="time_line"></div>
+            </header>
+            <section>
+                <div class="que_text">
+                   <!-- <span>What does HTML stand for?</span> -->
+                </div>
+                <div class="option_list">
+                   <!--<div class="option">
+                        <span>Hyper Text Preprocessor</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Markup Language</span>
+                        <div class="icon tick"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Text Modern List</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Hyper Tool Multi Language</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                    </div> --> 
+                </div>
+            </section>
+
+            <!--Quiz Box Footer-->
+            <footer>
+                <div class="total_que">
+                   <!-- <span><p>2</p> Of <p>5</p>Questions</span> -->
+                </div>
+                <button class="next_btn">Next Question</button>
+            </footer>
+        </div>
+
+        <!--Result Box-->
+        <div class="result_box">
+            <div class="icon">
+                <i class="fas fa-crown"></i>
+            </div>
+            <div class="complete_text">You have completed the Quiz!</div>
+            <div class="score_text">
+                <!--<span>You have scored <p>2</p> out of <p>5</p></span> -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+
+        <script src="js/questions.js"></script>
+        <script src="js/script.js"></script>
+
+
+    </body>
+</html>
